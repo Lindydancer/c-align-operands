@@ -1,7 +1,7 @@
 # c-align-operands - Support for aligned operands in C-like languages
 
 *Author:* Anders Lindgren<br>
-*Version:* 0.0.0<br>
+*Version:* 0.0.1<br>
 *URL:* [https://github.com/Lindydancer/c-align-operands](https://github.com/Lindydancer/c-align-operands)<br>
 
 Support for aligning operands when placing operators first on line,
@@ -107,4 +107,4 @@ be added to a hook:
 
 
 ---
-Converted from `c-align-operands.el` by [*el2markup*](https://github.com/Lindydancer/el2markdown).
+Converted from `c-align-operands.el` by [*el2markdown*](https://github.com/Lindydancer/el2markdown).

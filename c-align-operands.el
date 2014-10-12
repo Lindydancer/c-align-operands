@@ -1,9 +1,9 @@
-;;; c-align-operands.el -- Support for aligned operands in C-like languages
+;;; c-align-operands.el --- Support for aligned operands in C-like languages
 
 ;; Copyright (C) 1997-2007,2014 Anders Lindgren.
 
 ;; Author: Anders Lindgren
-;; Version: 0.0.0
+;; Version: 0.0.1
 ;; Created: 1997-??-??
 ;; URL: https://github.com/Lindydancer/c-align-operands
 
@@ -136,6 +136,7 @@
         (c-lineup-arglist-close-under-paren langelem)))))
 
 
+;;;###autoload
 (defun c-align-operands-lineup-arglist-operators (langelem)
   "Indent operators to the right of the start parenthesis."
   (let ((res (c-align-operands-patched-c-lineup-arglist-operators langelem)))
@@ -244,6 +245,7 @@ would not be enabled."
     map))
 
 
+;;;###autoload
 (define-minor-mode c-align-operands-electric-mode
   "Operators automatically aligns previous operand when first on line.
 
